@@ -6,9 +6,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 setopt interactivecomments
-source ~/.config/lunery/.assets/zsh/powerlevel10k/powerlevel10k.zsh-theme
-source ~/.config/lunery/.assets/zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source ~/.config/lunery/.assets/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.config/.lunery/.assets/zsh/powerlevel10k/powerlevel10k.zsh-theme
+source ~/.config/.lunery/.assets/zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source ~/.config/.lunery/.assets/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
