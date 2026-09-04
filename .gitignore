@@ -1,0 +1,31 @@
+#ignore all
+*
+
+#except these directorie
+!.config/
+
+#inore all files in .config
+.config/*
+
+#except these directories in .config
+!.config/kitty/
+!.config/kitty/*
+
+
+!.config/lunery/
+!.config/lunery/*
+
+!.config/lunery/kitty/
+!.config/lunery/kitty/*
+
+
+# home directory files
+!.gitignore
+!README.md
+
+## zsh
+!.zshrc
+!.p10k.zsh
+
+##
+
