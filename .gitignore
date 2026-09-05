@@ -11,12 +11,20 @@
 !.config/kitty/
 !.config/kitty/*
 
+!.config/hypr/
+!.config/hypr/*
 
-!.config/lunery/
-!.config/lunery/*
 
-!.config/lunery/kitty/
-!.config/lunery/kitty/*
+#except these directories in .config/lunery
+
+!.config/.lunery/
+!.config/.lunery/*
+
+!.config/.lunery/kitty/
+!.config/.lunery/kitty/*
+
+!.config/.lunery/hyperland/
+!.config/.lunery/hyperland/*
 
 
 # home directory files
